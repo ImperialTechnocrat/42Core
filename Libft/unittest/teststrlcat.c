@@ -6,7 +6,7 @@
 void teststrlcat()
 {
     char arr1[] = "abeceda";
-    char arr2[8] = "je to";
+    char arr2[20] = "je to";
     size_t size = sizeof(arr2);
     printf("TEST ft_strlcat: %s - %s, %ld\n", arr1, arr2, size);
     size_t len = ft_strlcat(arr2, arr1, size);

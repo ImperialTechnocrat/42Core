@@ -7,7 +7,10 @@ size_t	ft_strlcat(char* dst, const char* src, size_t maxlen)
 	size_t	srclen;
 	size_t	dstlen;
 
-	srclen = ft_strlen(src);
+	if (ft_strlen(src) >= maxlen)
+		srclen = ft_strlen(src);
+	else
+		srclen = maxlen;
 	dstlen = ft_strlen(dst);
 	if (dstlen == maxlen)
 		return (maxlen + srclen);
