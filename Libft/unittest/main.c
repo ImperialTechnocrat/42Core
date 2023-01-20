@@ -4,6 +4,8 @@
 #include "../ft_memset.c"
 #include "../ft_isalpha.c"
 #include "../ft_bzero.c"
+#include "testmemmove.c"
+#include "teststrlcpy.c"
 
 
 
@@ -15,7 +17,9 @@ int    main(void)
     char ascii = '*';
     char tab = '\t';
     char nul = '\0';
-    char str1[20] = "Statistika je nuda";
+    char str1[30] = "Statistika je nuda";
+    char arr1[10] = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'};
+    char arr2[10] = {'*', '*', '*', '*', '*', '*', '*', '*', '*', '*'};
 
     printf("is_alpha - A:%d|*:%d\n", ft_isalpha(upletter), ft_isalpha(ascii));
     printf("is_digit - A:%d|9:%d\n", ft_isalpha(upletter), ft_isalpha(number));
@@ -26,6 +30,10 @@ int    main(void)
     printf("ft_bzero TEST: Original: %s\n", str1);
     ft_bzero(str1, 2);
     printf("ft_bzero TEST: New     : %s\n", str1);
+    testmemmove();
+    teststrlcpy();
+
+
 
     return (0);
 }
