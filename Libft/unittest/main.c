@@ -6,6 +6,7 @@
 #include "../ft_bzero.c"
 #include "testmemmove.c"
 #include "teststrlcpy.c"
+#include "teststrlcat.c"
 
 
 
@@ -32,6 +33,7 @@ int    main(void)
     printf("ft_bzero TEST: New     : %s\n", str1);
     testmemmove();
     teststrlcpy();
+    teststrlcat();
 
 
 
