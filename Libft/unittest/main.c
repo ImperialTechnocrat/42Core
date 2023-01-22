@@ -7,6 +7,7 @@
 #include "testtoupper.c"
 #include "teststrchr.c"
 #include "teststrncmp.c"
+#include "testatoi.c"
 
 
 
@@ -18,6 +19,7 @@ int    main(void)
     testtoupper();
     teststrchr();
     teststrncmp();
+    testatoi();
 
 
 
