@@ -1,10 +1,27 @@
 #include <stdio.h>
 #include <string.h>
 #include <assert.h>
-#include "../ft_isalpha.c"
+#include "testmemmove.c"
+#include "teststrlcpy.c"
+#include "teststrlcat.c"
+#include "testtoupper.c"
+#include "teststrchr.c"
+#include "teststrncmp.c"
+#include "testatoi.c"
+
+
 
 int    main(void)
 {
-    // Testing isalpha
-    assert(ft_isalpha('a') == 1);
+    testmemmove();
+    teststrlcpy();
+    teststrlcat();
+    testtoupper();
+    teststrchr();
+    teststrncmp();
+    testatoi();
+
+
+
+    return (0);
 }
