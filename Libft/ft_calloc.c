@@ -1,6 +1,4 @@
-#include "ft_macro.h"
-#include "ft_bzero.c"
-#include <stdlib.h>
+#include "libft.h"
 
 void*	ft_calloc(size_t nmemb, size_t size)
 {

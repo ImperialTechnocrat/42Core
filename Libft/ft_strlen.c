@@ -1,8 +1,6 @@
-#ifndef FT_STRLEN
-#define FT_STRLEN
-#include "ft_macro.h"
+#include "libft.h"
 
-int	ft_strlen(const char* s)
+size_t	ft_strlen(const char* s)
 {
 	size_t	len;
 
@@ -11,4 +9,3 @@ int	ft_strlen(const char* s)
 		len++;
 	return (len);
 }
-#endif

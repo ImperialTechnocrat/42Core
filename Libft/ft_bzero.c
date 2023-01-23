@@ -1,5 +1,5 @@
-#include "ft_macro.h"
-#include "ft_memset.c"
+#include "libft.h"
+
 
 void	ft_bzero(void* s, size_t n)
 {

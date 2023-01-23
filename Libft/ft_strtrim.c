@@ -1,8 +1,4 @@
-#include "ft_macro.h"
-#include "ft_strlcpy.c"
-#include "ft_strlen.c"
-#include "ft_strchr.c"
-#include "stdlib.h"
+#include "libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)
 {

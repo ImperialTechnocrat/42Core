@@ -1,7 +1,4 @@
-#ifndef FT_MEMSET
-#define FT_MEMSET
-
-#include "ft_macro.h"
+#include "libft.h"
 
 void*	ft_memset(void* ptr, int value, size_t num)
 {
@@ -12,5 +9,3 @@ void*	ft_memset(void* ptr, int value, size_t num)
 		*p++ = (unsigned char) value;
 	return ptr;
 }
-
-#endif

@@ -1,3 +1,5 @@
+#include "libft.h"
+
 char*	ft_strstr(const char* haystack, const char* needle, size_t len)
 {
 	size_t	needle_len;
@@ -8,7 +10,7 @@ char*	ft_strstr(const char* haystack, const char* needle, size_t len)
 		if (ft_strncmp(haystack, needle, needle_len))
 			return ((char *)haystack);
 		haystack++;
-		lenn--;
+		len--;
 	}
 	return (NULL);
 }

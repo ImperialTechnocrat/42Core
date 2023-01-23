@@ -1,5 +1,4 @@
-#include <unistd.h>
-#include "ft_putchar_fd.c"
+#include "libft.h"
 
 void ft_putnbr_fd(int n, int fd)
 {

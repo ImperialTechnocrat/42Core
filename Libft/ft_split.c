@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include "libft.h"
 
 int count_words(char const *s, char c)
 {

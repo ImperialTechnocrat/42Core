@@ -1,6 +1,4 @@
-#include "ft_macro.h"
-#include "ft_memcpy.c"
-#include "ft_strlen.c"
+#include "libft.h"
 
 size_t	ft_strlcpy(char * dst, const char * src, size_t maxlen) {
     const size_t srclen = ft_strlen(src);

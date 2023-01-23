@@ -1,6 +1,4 @@
-#ifndef FT_MEMCPY
-#define FT_MEMCPY
-#include "ft_macro.h"
+#include "libft.h"
 
 void*	ft_memcpy(void* dest, const void* scr, size_t n)
 {
@@ -10,4 +8,3 @@ void*	ft_memcpy(void* dest, const void* scr, size_t n)
 		*d++ = *s++;
 	return dest;
 }
-#endif
