@@ -46,11 +46,9 @@ int	word_len(char const *s, char c)
 
 void	fill_result(char **result, char const *s, char c)
 {
-	int	i;
 	int	j;
 	int	k;
 
-	i = 0;
 	j = 0;
 	while (*s)
 	{

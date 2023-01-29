@@ -14,6 +14,8 @@
 
 char	*ft_strchr(const char *s, int c)
 {
+	if (c < 0 || c > 127)
+		return (char *)s;
 	while (*s != '\0')
 	{
 		if (*s == c)
